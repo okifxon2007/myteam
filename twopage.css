@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+header{
+    background-image: url(./img/onebg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header button a{
+    text-decoration: none;
+    color: white;
+}
+.divone li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    justify-content: space-between;
+    padding-top: 20px;
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+nav h1{
+    font-size: 35px;
+}
+nav button{
+    width: 120px;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+    margin-left: 20px;
+    background-color: transparent;
+}
+.divone{
+    display: flex;
+}
+.headeronemain h1{
+    margin-top: 129px;
+    font-size: 100px;
+    width: 600px;
+    font-family: Livvic;
+    color: white;
+}
+.headeronemain span{
+    color: #F67E7E;
+}
+.headeronemain{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.homaindetal hr{
+    border: 2px solid #F67E7E;
+    width: 50px;
+}
+.homaindetal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 445px;
+    margin-top: 150px;
+}
+.homaindetal p{
+    width: 720px;
+    font-family: Livvic;
+    color: white;
+    padding-bottom: 250px;
+}
+main{
+    background-color:#004047;
+}
+main h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 40px;
+    font-family: Livvic;
+}
+main{
+    height: 1200px;
+}
+.mainonecard{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    height: 303px;
+    padding-bottom: 250px;
+    width: 350px;
+    background-color: #012F34;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainonecard img{
+    padding-top: 30px;
+}
+.mainonecard h2{
+    font-family: Livvic;
+    margin-top: 20px;
+    color:  #5BA6A7;
+}
+.mainonecard h3{
+    font-family: Livvic;
+    margin-top: 20px;
+    color:  white;
+}
+.mainonecard button{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: #F67E7E;
+    border: 2px solid #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    color: #012F34;
+    cursor: pointer;
+    transition: 1s all ease;
+
+}
+.mainonecard button:hover{
+    background-color: #5BA6A7;
+    border: 1px solid #5BA6A7;
+    transition: 1s all ease;
+    transform: rotate(45deg);
+}
+.onepagecard{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.maintwo{
+    background-color: #012F34;
+}
+.maintwo h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Livvic;
+    color: white;
+    padding-top: 110px;
+}
+.maintwo img{
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+
+.dff{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.onefooterpage h1{
+    font-size: 48px;
+    color: #012F34;
+    font-family: Livvic;
+}
+.onefooterpage{
+    background-color: #F67E7E;
+}
+.onefooterpage button{
+    width: 150px;
+    font-size: 17px; 
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid #012F34;
+    color: #012F34;
+    margin-top: 8px;
+    
+    background-color: transparent;
+}
+.fpdf{
+    padding-bottom: 80px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 100px;
+}
+.twofooterpage{
+    background-color: #012F34;
+}
+.fone h1{
+    padding-top: 50px;
+    font-size: 50px;
+    width: 600px;
+    font-family: Livvic;
+    color: white;
+}
+.mainonecard{
+    padding-bottom: 150px;
+}
+.fdf{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fone ul{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    list-style-type: none;
+    font-family: Livvic;
+    color: white;
+    gap: 10px;
+}
+.ftwo p{
+    margin-top: 80px;
+    width: 175px;
+    color: white;
+    font-family: Livvic;
+}
+.fthree{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.fthree p{
+    margin-top: 70px;
+    color: white;
+    font-family: Livvic;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 5px;
+        margin-left: 20px;
+    }
+    nav h1 {
+        font-size: 30px;
+    }
+    .headeronemain h1 {
+        font-size: 60px;
+        width: 400px;
+    }
+    .df {
+        gap: 50px;
+    }
+    .mainforpage h1 {
+        width: 600px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .mfpagecard {
+        width: 300px;
+    }
+}
+
+/* Telefon uchun */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    nav ul {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .headeronemain h1 {
+        font-size: 40px;
+        width: 300px;
+        text-align: center;
+    }
+    .mainforpage h1 {
+        width: 100%;
+        font-size: 24px;
+        padding-top: 120px;
+    }
+    .mfpagecard {
+        width: 90%;
+    }
+    .fone h1 {
+        font-size: 30px;
+    }
+}

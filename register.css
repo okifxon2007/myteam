@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header button a{
+    text-decoration: none;
+    color: white;
+}
+.divone li a{
+    text-decoration: none;
+    color: white;
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+header{
+    background-image: url(./img/onebg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    justify-content: space-between;
+    padding-top: 20px;
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+nav h1{
+    font-size: 35px;
+}
+nav button{
+    width: 120px;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.divone{
+    
+    display: flex;
+}
+.regdf{
+    flex-wrap: wrap;
+    display: flex;
+}
+.regdfone{
+    padding-top: 150px;
+}
+.regdfone h1{
+    font-size: 80px;
+    font-family: Livvic;
+    color: white;
+}
+.regdfone h2{
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Livvic;
+    color: #F67E7E;
+}
+.regdfone img{
+    margin-top: 60px;
+}
+.regdftwo form{
+    margin-top: 190px;
+
+}
+.regdf{
+    gap: 150px;
+}
+.regdftwo input{
+    width: 370px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.twofooterpage{
+    background-color: #012F34;
+}
+.fone h1{
+    padding-top: 50px;
+    font-size: 50px;
+    width: 600px;
+    font-family: Livvic;
+    color: white;
+}
+.fdf{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fone ul{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    list-style-type: none;
+    font-family: Livvic;
+    color: white;
+    gap: 10px;
+}
+.ftwo p{
+    margin-top: 80px;
+    width: 175px;
+    color: white;
+    font-family: Livvic;
+}
+.fthree{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.fthree p{
+    margin-top: 70px;
+    color: white;
+    font-family: Livvic;
+}
