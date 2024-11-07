@@ -1,242 +1,14 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.conta{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-}
-header{
-    background-image: url(./img/onebg\ img.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-header button a{
-    text-decoration: none;
-    color: white;
-}
-.divone li a{
-    text-decoration: none;
-    color: white;
-}
-nav{
-    justify-content: space-between;
-    padding-top: 20px;
-    display: flex;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav ul{
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-    margin-left: 50px;
-    margin-top: 18px;
-}
-nav h1{
-    font-size: 35px;
-}
-nav button{
-    width: 120px;
-    border-radius: 30px;
-    border: 3px solid white;
-    color: white;
-    margin-left: 20px;
-    background-color: transparent;
-}
-.divone{
-    display: flex;
-}
-.headeronemain h1{
-    margin-top: 129px;
-    font-size: 100px;
-    width: 600px;
-    font-family: Livvic;
-    color: white;
-}
-.headeronemain span{
-    color: #F67E7E;
-}
-.headeronemain{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-}
-.homaindetal hr{
-    width: 50px;
-}
-.homaindetal{
-    margin-left: auto;
-    margin-right: auto;
-    width: 445px;
-    margin-top: 150px;
-}
-.homaindetal p{
-    width: 320px;
-    font-family: Livvic;
-    color: white;
-    padding-bottom: 250px;
-}
-.mainonedem{
-    background-color: #012F34;
-    display: flex;
-
-}
-.df{
-    padding-top: 180px;
-    display: flex;
-    gap: 205px;
-    flex-wrap: wrap;
-    padding-bottom: 150px;
-}
-.df hr{
-    width: 80px;
-    border: 2px solid #F67E7E;
-}
-.maintwodem h1{
-    margin-top: 129px;
-    font-size: 48px;
-    width: 445px;
-    font-family: Livvic;
-    color: white;
-}
-.mainforpage{
-    background-color: #004047;
-    color: white;
-}
-.mainforpage h1{
-    text-align: center;
-    font-family: Livvic;
-    font-size: 48px;
-    width: 932px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 170px;
-}
-
-.mainforpage h1 span{
-    color: #5BA6A7;
-}
-.mfpagecard{
-    width: 380px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-.mfpagecard p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
-    font-size: 15px;
-    font-family: Livvic;
-}
-.mfpagecard h2{
-    margin-left: auto;
-    margin-right: auto;
-    color: #5BA6A7;
-    font-family: Livvic;
-    width: 370px;
-    font-size: 18px;
-    margin-top: 20px;
-}
-.mfpagecard h3{
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Livvic;
-    font-weight: 500;
-    width: 350px;
-}
-.mfpagecard img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 100px;
-    padding-bottom: 70px;
-}
-.dff{
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.onefooterpage h1{
-    font-size: 48px;
-    color: #012F34;
-    font-family: Livvic;
-}
-.onefooterpage{
-    background-color: #F67E7E;
-}
-.onefooterpage button{
-    width: 150px;
-    font-size: 17px; 
-    height: 50px;
-    border-radius: 30px;
-    border: 3px solid #012F34;
-    color: #012F34;
-    margin-top: 8px;
-    
-    background-color: transparent;
-}
-.fpdf{
-    padding-bottom: 80px;
-    justify-content: space-between;
-    display: flex;
-    padding-top: 100px;
-}
-.twofooterpage{
-    background-color: #012F34;
-}
-.fone h1{
-    padding-top: 50px;
-    font-size: 50px;
-    width: 600px;
-    font-family: Livvic;
-    color: white;
-}
-.fdf{
-    display: flex;
-    flex-wrap: wrap;
-}
-.fone ul{
-    margin-top: 30px;
-    padding-bottom: 20px;
-    display: flex;
-    list-style-type: none;
-    font-family: Livvic;
-    color: white;
-    gap: 10px;
-}
-.ftwo p{
-    margin-top: 80px;
-    width: 175px;
-    color: white;
-    font-family: Livvic;
-}
-.fthree{
-    margin-left: 150px;
-    margin-top: 30px;
-}
-.fthree p{
-    margin-top: 70px;
-    color: white;
-    font-family: Livvic;
-} */
-
-
-/* Barcha qurilmalar uchun asosiy uslub */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Livvic;
+}
+/* Main style */
+
+:root{
+    --oqrang:white;
+    --pushtirang:#F67E7E;
 }
 
 .conta {
@@ -252,17 +24,30 @@ header {
 }
 header button a {
     text-decoration: none;
-    color: white;
+    color: var(--oqrang);
 }
 .divone li a {
     text-decoration: none;
-    color: white;
+    color: var(--oqrang);
 }
+
+.divone li a:hover {
+    text-decoration: none;
+    color: var(--pushtirang);
+    transition: 1s all;
+}
+
+header button:hover {
+    color: var(--pushtirang);
+    border: 3px solid var(--pushtirang);
+    transition: 1s all;
+}
+
 nav {
     justify-content: space-between;
     padding-top: 20px;
     display: flex;
-    color: white;
+    color: var(--oqrang);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -278,8 +63,8 @@ nav h1 {
 nav button {
     width: 120px;
     border-radius: 30px;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid var(--oqrang);
+    color: var(--oqrang);
     margin-left: 20px;
     background-color: transparent;
 }
@@ -291,10 +76,10 @@ nav button {
     font-size: 100px;
     width: 600px;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
 }
 .headeronemain span {
-    color: #F67E7E;
+    color: var(--pushtirang);
 }
 .headeronemain {
     flex-wrap: wrap;
@@ -313,7 +98,7 @@ nav button {
 .homaindetal p {
     width: 320px;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
     padding-bottom: 250px;
 }
 .mainonedem {
@@ -329,18 +114,18 @@ nav button {
 }
 .df hr {
     width: 80px;
-    border: 2px solid #F67E7E;
+    border: 2px solid var(--pushtirang);
 }
 .maintwodem h1 {
     margin-top: 129px;
     font-size: 48px;
     width: 445px;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
 }
 .mainforpage {
     background-color: #004047;
-    color: white;
+    color: var(--oqrang);
 }
 .mainforpage h1 {
     text-align: center;
@@ -406,7 +191,7 @@ nav button {
     font-family: Livvic;
 }
 .onefooterpage {
-    background-color: #F67E7E;
+    background-color: var(--pushtirang);
 }
 .onefooterpage button {
     width: 150px;
@@ -432,7 +217,7 @@ nav button {
     font-size: 50px;
     width: 600px;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
 }
 .fdf {
     display: flex;
@@ -444,13 +229,13 @@ nav button {
     display: flex;
     list-style-type: none;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
     gap: 10px;
 }
 .ftwo p {
     margin-top: 80px;
     width: 175px;
-    color: white;
+    color: var(--oqrang);
     font-family: Livvic;
 }
 .fthree {
@@ -459,7 +244,7 @@ nav button {
 }
 .fthree p {
     margin-top: 70px;
-    color: white;
+    color: var(--oqrang);
     font-family: Livvic;
 }
 

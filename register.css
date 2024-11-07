@@ -1,7 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Livvic;
+}
+:root{
+    --pushtirrang:#F67E7E;
+    --oqrang:white;
 }
 header button a{
     text-decoration: none;
@@ -9,7 +14,18 @@ header button a{
 }
 .divone li a{
     text-decoration: none;
-    color: white;
+    color: var(--oqrang);
+}
+.divone li a:hover {
+    text-decoration: none;
+    color: #F67E7E;
+    transition: 1s all;
+}
+
+header button:hover {
+    color: var(--pushtirrang);
+    border: 3px solid var(--pushtirrang);
+    transition: 1s all;
 }
 .conta{
     margin-left: auto;
@@ -26,7 +42,7 @@ nav{
     justify-content: space-between;
     padding-top: 20px;
     display: flex;
-    color: white;
+    color: var(--oqrang);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul{
@@ -42,8 +58,8 @@ nav h1{
 nav button{
     width: 120px;
     border-radius: 30px;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid var(--oqrang);
+    color: var(--oqrang);
     margin-left: 20px;
     background-color: transparent;
 }
@@ -62,13 +78,13 @@ nav button{
 .regdfone h1{
     font-size: 80px;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
 }
 .regdfone h2{
     margin-top: 10px;
     font-size: 50px;
     font-family: Livvic;
-    color: #F67E7E;
+    color: var(--pushtirrang);
 }
 .regdfone img{
     margin-top: 60px;
@@ -84,7 +100,7 @@ nav button{
     width: 370px;
     height: 35px;
     background-color: transparent;
-    color: white;
+    color: var(--oqrang);
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
@@ -112,13 +128,13 @@ nav button{
     display: flex;
     list-style-type: none;
     font-family: Livvic;
-    color: white;
+    color: var(--oqrang);
     gap: 10px;
 }
 .ftwo p{
     margin-top: 80px;
     width: 175px;
-    color: white;
+    color: var(--oqrang);
     font-family: Livvic;
 }
 .fthree{
@@ -127,6 +143,6 @@ nav button{
 }
 .fthree p{
     margin-top: 70px;
-    color: white;
+    color: var(--oqrang);
     font-family: Livvic;
 }
